@@ -59,6 +59,10 @@ app.get("/get", (req, res) => {
   res.json(jobs);
 });
 
+app.get("/", (req, res) => {
+  res.send("Welcome to Ayushi's Job Application API");
+});
+
 app.listen(port, () => {
   console.log("Server started at", port);
 });
