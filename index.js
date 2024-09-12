@@ -1,39 +1,18 @@
 let jobs = [
-  //   {
-  //     id: "68221dc1-4b8b-4073-8695-bc611b28742b",
-  //     skills: ["JavaScript", "React", "Node.js"],
-  //     title: "Full Stack Developer",
-  //     desc: "Responsible for developing both front-end and back-end components of web applications. Collaborate with designers and other developers to build dynamic web applications.",
-  //     salary: "$80,000 - $100,000 per year",
-  //   },
-  //   {
-  //     id: "33506183-cd0b-4501-8c8d-20c83d541f39",
-  //     skills: ["Python", "Django", "REST APIs"],
-  //     title: "Backend Developer",
-  //     desc: "Design and implement scalable backend services using Python and Django framework. Ensure high performance and responsiveness to requests from the frontend.",
-  //     salary: "$70,000 - $90,000 per year",
-  //   },
-  //   {
-  //     id: "7d8654a0-0531-455e-890d-a4196b274163",
-  //     skills: ["HTML", "CSS", "JavaScript", "Photoshop"],
-  //     title: "UI/UX Designer",
-  //     desc: "Create user-centered designs by understanding business requirements and user feedback. Design and improve the overall user experience for websites and applications.",
-  //     salary: "$60,000 - $75,000 per year",
-  //   },
-  //   {
-  //     id: "08cc9539-4a33-4e9d-b299-6cda7802b679",
-  //     skills: ["Java", "Spring Boot", "Microservices"],
-  //     title: "Java Developer",
-  //     desc: "Develop, test, and maintain web-based applications using Java and Spring Boot. Work on complex back-end logic and microservices architecture for large-scale systems.",
-  //     salary: "$85,000 - $105,000 per year",
-  //   },
-  //   {
-  //     id: "0f522c11-7f0e-4ecc-8b56-2dbb125d786b",
-  //     skills: ["AWS", "Docker", "Kubernetes", "CI/CD"],
-  //     title: "DevOps Engineer",
-  //     desc: "Automate and streamline operations and processes. Collaborate with software developers to create efficient deployment pipelines and infrastructure management.",
-  //     salary: "$95,000 - $120,000 per year",
-  //   },
+  {
+    id: "68221dc1-4b8b-4073-8695-bc611b28742b",
+    skills: ["JavaScript", "React", "Node.js"],
+    title: "Full Stack Developer",
+    desc: "Responsible for developing both front-end and back-end components of web applications. Collaborate with designers and other developers to build dynamic web applications.",
+    salary: "$80,000 - $100,000 per year",
+  },
+  {
+    id: "33506183-cd0b-4501-8c8d-20c83d541f39",
+    skills: ["Python", "Django", "REST APIs"],
+    title: "Backend Developer",
+    desc: "Design and implement scalable backend services using Python and Django framework. Ensure high performance and responsiveness to requests from the frontend.",
+    salary: "$70,000 - $90,000 per year",
+  },
 ];
 
 import express, { json } from "express";
