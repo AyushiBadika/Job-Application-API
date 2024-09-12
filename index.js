@@ -60,7 +60,60 @@ app.get("/get", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Ayushi's Job Application API");
+  res.send(`<!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Job Application API</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100vh;
+                        background-color: #f4f4f4;
+                    }
+                    .container {
+                        text-align: center;
+                        background-color: #fff;
+                        padding: 20px;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    }
+                    h1 {
+                        color: #333;
+                        margin-bottom: 20px;
+                    }
+                    ul {
+                        list-style-type: none;
+                        padding: 0;
+                    }
+                    li {
+                        background-color: #f0f0f0;
+                        padding: 10px;
+                        margin: 5px 0;
+                        border-radius: 5px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <h1>Welcome to the Job Application API</h1>
+                    <p>Available API Endpoints:</p>
+                    <ul>
+                        <li>Create Job : https://job-application-api-38m6.onrender.com/create</li>
+                        <li>Update Job : https://job-application-api-38m6.onrender.com/update/:id</li>
+                        <li>Delete Job : https://job-application-api-38m6.onrender.com/delete/:id</li>
+                        <li>Get All Jobs : https://job-application-api-38m6.onrender.com/get</li>
+                    </ul>
+                </div>
+            </body>
+            </html>
+`);
 });
 
 app.listen(port, () => {
